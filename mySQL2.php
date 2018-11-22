@@ -9,10 +9,10 @@
 <body>
 
 <?php
-$servername = "localhost";
-$username = "jdcline";
-$password = "g6cs5pka";
-$database = "jdcline";
+$servername = "";
+$username = "";
+$password = "";
+$database = "";
 
 try {
  $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
